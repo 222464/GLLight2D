@@ -1,0 +1,405 @@
+newmtl 03_-_Default
+Ka 0 0 0
+Kd 0.7 0.7 0.6
+Ks 0 0 0
+Ni 1
+Ns 0
+Tf 1 1 1
+d 1
+
+newmtl 09_-_Default
+Ka 0 0 0
+Kd 0.6 0.6 0.6
+Ks 0 0 0
+Ni 1
+Ns 0
+Tf 1 1 1
+d 1
+
+newmtl back_glass
+Ka 0 0 0
+Kd 1 1 1
+Ks .5 .5 .5
+Ni 1
+Ns 1000
+Tf 1 1 1
+d 0.0
+
+newmtl back_light_cover
+Ka 0 0 0
+Kd 1 1 1
+Ks 0.2 0.2 0.2
+Ni 1
+Ns 1000
+Tf 1 1 1
+d 0.8
+
+newmtl buttons
+Ka 0 0 0
+Kd 0 0 0
+Ks 0.9 0.9 0.9
+Ni 1
+Ns 800
+Tf 1 1 1
+d 1
+
+newmtl car_paint
+Ka 0 0 0
+Kd .5 1 .5
+Ks 0.65 0.65 0.65
+Ni 1
+Ns 800
+Tf 1 1 1
+d 1
+
+newmtl control_panel
+Ka 0 0 0
+Kd 0 0 0
+Ks 0.9 0.9 0.9
+Ni 1
+Ns 8
+Tf 1 1 1
+d 1
+
+newmtl Default
+Ka 0 0 0
+Kd 0.784314 0.784314 0.784314
+Ks 0 0 0
+Ni 1
+Ns 400
+Tf 1 1 1
+d 1
+
+newmtl Front_glass
+Ka 0 0 0
+Kd 1 1 1
+Ks 0.25 0.25 0.25
+Ni 1
+Ns 1000
+Tf 1 1 1
+d 0.0
+
+newmtl floor
+Ka 0 0 0
+Kd 0.3 0.3 0.3
+Ks 0 0 0
+Ni 1
+Ns 0
+Tf 1 1 1
+d 1
+
+newmtl glass
+Ka 0 0 0
+Kd 1 1 1
+Ks .5 .5 .5
+Ni 1
+Ns 1000
+Tf 1 1 1
+d 0.0
+
+newmtl interior_3
+Ka 0 0 0
+Kd 0.9 0.9 0.7
+Ks 0 0 0
+Ni 1
+Ns 0
+Tf 1 1 1
+d 1
+
+newmtl interior_material1
+Ka 0 0 0
+Kd 0.3 0.3 0.3
+Ks 0 0 0
+Ni 1
+Ns 0
+Tf 1 1 1
+d 1
+
+newmtl interior_material2
+Ka 0 0 0
+Kd 0.9 0.9 0.7
+Ks 0 0 0
+Ni 1
+Ns 0
+Tf 1 1 1
+d 1
+
+newmtl lampa_duza_pryod
+Ka 0 0 0
+Kd 1 1 1
+Ks 0 0 0
+Ni 1
+Ns 0
+Tf 1 1 1
+d 1
+
+newmtl lampka_od_lusterka
+Ka 0 0 0
+Kd 0.4 0.4 0.4
+Ks 0 0 0
+Ni 1
+Ns 0
+Tf 1 1 1
+d 1
+
+newmtl lusterka
+Ka 0 0 0
+Kd 1 1 1
+Ks 0.9 0.9 0.9
+Ni 1
+Ns 1000
+Tf 1 1 1
+d 1
+
+newmtl lusterko
+Ka 0 0 0
+Kd 1 1 1
+Ks 1 1 1
+Ni 1
+Ns 1000
+Tf 1 1 1
+d 1
+
+newmtl Material__25
+Ka 0 0 0
+Kd 1 1 1
+Ks 0.95 0.95 0.95
+Ni 1
+Ns 949
+Tf 1 1 1
+d 1
+
+newmtl Material__3703
+Ka 0 0 0
+Kd 1 1 1
+Ks 1 1 1
+Ni 1
+Ns 1000
+Tf 1 1 1
+d 1
+
+newmtl Material__3704
+Ka 0 0 0
+Kd 1 1 1
+Ks 1 1 1
+Ni 1
+Ns 1000
+Tf 1 1 1
+d 1
+
+newmtl Material__3705
+Ka 0 0 0
+Kd 1 1 1
+Ks 1 1 1
+Ni 1
+Ns 1000
+Tf 1 1 1
+d 1
+
+newmtl Material__3706
+Ka 0 0 0
+Kd 1 1 1
+Ks 1 1 1
+Ni 1
+Ns 1000
+Tf 1 1 1
+d 1
+
+newmtl Material__3707
+Ka 0 0 0
+Kd 0 0 0
+Ks 0 0 0
+Ni 1
+Ns 0
+Tf 1 1 1
+d 1
+
+newmtl Material__3708
+Ka 0 0 0
+Kd 0 0 0
+Ks 0 0 0
+Ni 1
+Ns 0
+Tf 1 1 1
+d 1
+
+newmtl Material__3709
+Ka 0 0 0
+Kd 0 0 0
+Ks 0 0 0
+Ni 1
+Ns 0
+Tf 1 1 1
+d 1
+
+newmtl Material__3710
+Ka 0 0 0
+Kd 1 .2 .2
+Ks 0.1 0.1 0.1
+Ni 1
+Ns 1000
+Tf 1 1 1
+d 0.1
+
+newmtl Material__3711
+Ka 0 0 0
+Kd 1 1 1
+Ks 1 1 1
+Ni 1
+Ns 1000
+Tf 1 1 1
+d 1
+
+newmtl machon
+Ka 0 0 0
+Kd 0.6 0.6 0.6
+Ks 0.9 0.9 0.9
+Ni 1
+Ns 4
+Tf 1 1 1
+d 1
+
+newmtl metal
+Ka 0 0 0
+Kd 1 1 1
+Ks 0.9 0.9 0.9
+Ni 1
+Ns 699
+Tf 1 1 1
+d 1
+
+newmtl pasy_bezp
+Ka 0 0 0
+Kd 0 0 0
+Ks 0.9 0.9 0.9
+Ni 1
+Ns 3
+Tf 1 1 1
+d 1
+
+newmtl plastik
+Ka 0 0 0
+Kd 0 0 0
+Ks 0.9 0.9 0.9
+Ni 1
+Ns 4
+Tf 1 1 1
+d 1
+
+newmtl reflective_plastik
+Ka 0 0 0
+Kd 0 0 0
+Ks 0.9 0.9 0.9
+Ni 1
+Ns 898
+Tf 1 1 1
+d 1
+
+newmtl registrations
+Ka 0 0 0
+Kd 0.6 0.6 0.6
+Ks 0 0 0
+Ni 1
+Ns 0
+Tf 1 1 1
+d 1
+
+newmtl shadows
+Ka 0 0 0
+Kd 0 0 0
+Ks 0 0 0
+Ni 1
+Ns 1000
+Tf 1 1 1
+d 1
+
+newmtl skora2
+Ka 0 0 0
+Kd 0.9 0.9 0.7
+Ks 0 0 0
+Ni 1
+Ns 0
+Tf 1 1 1
+d 1
+
+newmtl soft_plastik
+Ka 0 0 0
+Kd 0 0 0
+Ks 0.2 0.2 0.2
+Ni 1
+Ns 899
+Tf 1 1 1
+d 1
+
+newmtl szybka_od_lusterka
+Ka 0 0 0
+Kd 1 1 1
+Ks 0.5 0.5 0.5
+Ni 1
+Ns 1000
+Tf 1 1 1
+d 0.0
+
+newmtl szyby
+Ka 0 0 0
+Kd 1 1 1
+Ks 0.5 0.5 0.5
+Ni 1
+Ns 1000
+Tf 1 1 1
+d 0.0
+
+newmtl Tire
+Ka 0 0 0
+Kd 0.1 0.1 0.1
+Ks 0.2 0.2 0.2
+Ni 1
+Ns 300
+Tf 1 1 1
+d 1
+
+newmtl tapicerka
+Ka 0 0 0
+Kd 0.7 0.7 0.6
+Ks 0 0 0
+Ni 1
+Ns 0
+Tf 1 1 1
+d 1
+
+newmtl tire
+Ka 0 0 0
+Kd 0.1 0.1 0.1
+Ks 0.2 0.2 0.2
+Ni 1
+Ns 300
+Tf 1 1 1
+d 1
+
+newmtl triangle
+Ka 0 0 0
+Kd 1 0 0
+Ks 0.9 0.9 0.9
+Ni 1
+Ns 4
+Tf 1 1 1
+d 1
+
+newmtl wood
+Ka 0 0 0
+Kd 0.337255 0.196078 0.137255
+Ks 0 0 0
+Ni 1
+Ns 0
+Tf 1 1 1
+d 1
+
+newmtl wyswietlacz
+Ka 0 0 0
+Kd 0.6 0.5 1
+Ks 0 0 0
+Ni 1
+Ns 0
+Tf 1 1 1
+d 1
+

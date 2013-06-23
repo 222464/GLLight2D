@@ -1,0 +1,229 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{E709D383-3312-4439-A849-62D4F20BBA3E}</ProjectGuid>
+    <RootNamespace>PathTracer</RootNamespace>
+    <ProjectName>PathTracer2D</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v110</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v110</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v110</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v110</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <IncludePath>C:\Users\Eric\Documents\Visual Studio 2012\Libraries\glew-1.9.0-win64\glew-1.9.0\include;C:\Users\Eric\Documents\Visual Studio 2012\Libraries\SFML-2.0\include;C:\Users\Eric\Documents\Visual Studio 2012\Projects\PathTracer\PathTracer\Source;$(IncludePath)</IncludePath>
+    <LibraryPath>C:\Users\Eric\Documents\Visual Studio 2012\Libraries\glew-1.9.0-win64\glew-1.9.0\lib;C:\Users\Eric\Documents\Visual Studio 2012\Libraries\SFML-2.0\lib;C:\Users\Eric\Documents\Visual Studio 2012\Projects\PathTracer\PathTracer\Source;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <IncludePath>C:\Users\Eric\Documents\Visual Studio 2012\Libraries\glew-1.9.0-win64\glew-1.9.0\include;C:\Users\Eric\Documents\Visual Studio 2012\Libraries\SFML-Modified\SFML\include;C:\Users\Eric\Documents\Visual Studio 2012\Projects\PathTracer2D\PathTracer\Source;$(IncludePath)</IncludePath>
+    <LibraryPath>C:\Users\Eric\Documents\Visual Studio 2012\Libraries\glew-1.9.0-win64\glew-1.9.0\lib;C:\Users\Eric\Documents\Visual Studio 2012\Libraries\SFML-Modified\SFML\lib;C:\Users\Eric\Documents\Visual Studio 2012\Projects\PathTracer2D\PathTracer\Source;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <IncludePath>C:\Users\Eric\Documents\Visual Studio 2012\Libraries\glew-1.9.0-win64\glew-1.9.0\include;C:\Users\Eric\Documents\Visual Studio 2012\Libraries\SFML-2.0\include;C:\Users\Eric\Documents\Visual Studio 2012\Projects\PathTracer\PathTracer\Source;$(IncludePath)</IncludePath>
+    <LibraryPath>C:\Users\Eric\Documents\Visual Studio 2012\Libraries\glew-1.9.0-win64\glew-1.9.0\lib;C:\Users\Eric\Documents\Visual Studio 2012\Libraries\SFML-2.0\lib;C:\Users\Eric\Documents\Visual Studio 2012\Projects\PathTracer\PathTracer\Source;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <IncludePath>C:\Users\Eric\Documents\Visual Studio 2012\Libraries\glew-1.9.0-win64\glew-1.9.0\include;C:\Users\Eric\Documents\Visual Studio 2012\Libraries\SFML-Modified\SFML\include;C:\Users\Eric\Documents\Visual Studio 2012\Projects\PathTracer2D\PathTracer\Source;$(IncludePath)</IncludePath>
+    <LibraryPath>C:\Users\Eric\Documents\Visual Studio 2012\Libraries\glew-1.9.0-win64\glew-1.9.0\lib;C:\Users\Eric\Documents\Visual Studio 2012\Libraries\SFML-Modified\SFML\lib;C:\Users\Eric\Documents\Visual Studio 2012\Projects\PathTracer2D\PathTracer\Source;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>sfml-system.lib;sfml-window.lib;sfml-graphics.lib;OpenGL32.lib;glew32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>SFML_DYNAMIC;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>sfml-graphics.lib;sfml-window.lib;sfml-system.lib;glew32.lib;OpenGL32.lib;GLU32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>C:\Users\Eric\Documents\Visual Studio 2012\Libraries\SFML-2.0\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <SubSystem>Console</SubSystem>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalDependencies>sfml-system.lib;sfml-window.lib;sfml-graphics.lib;OpenGL32.lib;glew32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>SFML_DYNAMIC;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalDependencies>glew32.lib;OpenGL32.lib;GLU32.lib;sfml-main.lib;sfml-graphics.lib;sfml-window.lib;sfml-system.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>C:\Users\Eric\Documents\Visual Studio 2012\Libraries\SFML-2.0\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <SubSystem>Windows</SubSystem>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="Source\AssetManager\Asset.cpp" />
+    <ClCompile Include="Source\AssetManager\AssetManager.cpp" />
+    <ClCompile Include="Source\AssetManager\Asset_Texture.cpp" />
+    <ClCompile Include="Source\Constructs\AABB.cpp" />
+    <ClCompile Include="Source\Constructs\AABB2D.cpp" />
+    <ClCompile Include="Source\Constructs\Matrix3x3f.cpp" />
+    <ClCompile Include="Source\Constructs\Matrix3x3i.cpp" />
+    <ClCompile Include="Source\Constructs\Matrix4x4d.cpp" />
+    <ClCompile Include="Source\Constructs\Matrix4x4f.cpp" />
+    <ClCompile Include="Source\Constructs\Planef.cpp" />
+    <ClCompile Include="Source\Constructs\Plane_Equationf.cpp" />
+    <ClCompile Include="Source\Constructs\Point2i.cpp" />
+    <ClCompile Include="Source\Constructs\Point3i.cpp" />
+    <ClCompile Include="Source\Constructs\Point4i.cpp" />
+    <ClCompile Include="Source\Constructs\Quaternion.cpp" />
+    <ClCompile Include="Source\Constructs\Vec2f.cpp" />
+    <ClCompile Include="Source\Constructs\Vec3f.cpp" />
+    <ClCompile Include="Source\Constructs\Vec4d.cpp" />
+    <ClCompile Include="Source\Constructs\Vec4f.cpp" />
+    <ClCompile Include="Source\Main.cpp" />
+    <ClCompile Include="Source\Renderer\BufferObjects\FBO.cpp" />
+    <ClCompile Include="Source\Renderer\BufferObjects\VAO.cpp" />
+    <ClCompile Include="Source\Renderer\BufferObjects\VBO.cpp" />
+    <ClCompile Include="Source\Renderer\BVH\BVHNode.cpp" />
+    <ClCompile Include="Source\Renderer\BVH\BVHTree.cpp" />
+    <ClCompile Include="Source\Renderer\Camera.cpp" />
+    <ClCompile Include="Source\Renderer\Culler\Frustum.cpp" />
+    <ClCompile Include="Source\Renderer\Forms\Form_Triangle.cpp" />
+    <ClCompile Include="Source\Renderer\Light.cpp" />
+    <ClCompile Include="Source\Renderer\Material.cpp" />
+    <ClCompile Include="Source\Renderer\Model_OBJ.cpp" />
+    <ClCompile Include="Source\Renderer\Polygon2D.cpp" />
+    <ClCompile Include="Source\Renderer\RenderUtils.cpp" />
+    <ClCompile Include="Source\Renderer\SampleBuffer.cpp" />
+    <ClCompile Include="Source\Renderer\SFMLOpenGL.cpp" />
+    <ClCompile Include="Source\Renderer\Shader\Shader.cpp" />
+    <ClCompile Include="Source\Renderer\Shader\TextureAndAttachment.cpp" />
+    <ClCompile Include="Source\Renderer\Shader\UBOShaderInterface.cpp" />
+    <ClCompile Include="Source\Renderer\TracerScene.cpp" />
+    <ClCompile Include="Source\Utilities\UtilFuncs.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Source\AssetManager\Asset.h" />
+    <ClInclude Include="Source\AssetManager\AssetManager.h" />
+    <ClInclude Include="Source\AssetManager\Asset_Texture.h" />
+    <ClInclude Include="Source\Constructs\AABB.h" />
+    <ClInclude Include="Source\Constructs\AABB2D.h" />
+    <ClInclude Include="Source\Constructs\Matrix3x3f.h" />
+    <ClInclude Include="Source\Constructs\Matrix3x3i.h" />
+    <ClInclude Include="Source\Constructs\Matrix4x4d.h" />
+    <ClInclude Include="Source\Constructs\Matrix4x4f.h" />
+    <ClInclude Include="Source\Constructs\Planef.h" />
+    <ClInclude Include="Source\Constructs\Plane_Equationf.h" />
+    <ClInclude Include="Source\Constructs\Point2i.h" />
+    <ClInclude Include="Source\Constructs\Point3i.h" />
+    <ClInclude Include="Source\Constructs\Point4i.h" />
+    <ClInclude Include="Source\Constructs\Quaternion.h" />
+    <ClInclude Include="Source\Constructs\Vec2f.h" />
+    <ClInclude Include="Source\Constructs\Vec3f.h" />
+    <ClInclude Include="Source\Constructs\Vec4d.h" />
+    <ClInclude Include="Source\Constructs\Vec4f.h" />
+    <ClInclude Include="Source\Renderer\BufferObjects\FBO.h" />
+    <ClInclude Include="Source\Renderer\BufferObjects\VAO.h" />
+    <ClInclude Include="Source\Renderer\BufferObjects\VBO.h" />
+    <ClInclude Include="Source\Renderer\BVH\BVHNode.h" />
+    <ClInclude Include="Source\Renderer\BVH\BVHTree.h" />
+    <ClInclude Include="Source\Renderer\Camera.h" />
+    <ClInclude Include="Source\Renderer\Culler\Frustum.h" />
+    <ClInclude Include="Source\Renderer\Forms\Form.h" />
+    <ClInclude Include="Source\Renderer\Forms\Form_Triangle.h" />
+    <ClInclude Include="Source\Renderer\Light.h" />
+    <ClInclude Include="Source\Renderer\Material.h" />
+    <ClInclude Include="Source\Renderer\Model_OBJ.h" />
+    <ClInclude Include="Source\Renderer\Polygon2D.h" />
+    <ClInclude Include="Source\Renderer\RenderUtils.h" />
+    <ClInclude Include="Source\Renderer\SampleBuffer.h" />
+    <ClInclude Include="Source\Renderer\SFMLOpenGL.h" />
+    <ClInclude Include="Source\Renderer\Shader\Shader.h" />
+    <ClInclude Include="Source\Renderer\Shader\TextureAndAttachment.h" />
+    <ClInclude Include="Source\Renderer\Shader\UBOShaderInterface.h" />
+    <ClInclude Include="Source\Renderer\TracerScene.h" />
+    <ClInclude Include="Source\Utilities\UtilFuncs.h" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
