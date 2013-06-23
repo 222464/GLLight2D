@@ -21,7 +21,7 @@
   <PropertyGroup Label="Globals">
     <ProjectGuid>{E709D383-3312-4439-A849-62D4F20BBA3E}</ProjectGuid>
     <RootNamespace>PathTracer</RootNamespace>
-    <ProjectName>PathTracer2D</ProjectName>
+    <ProjectName>GLLight2D</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -71,16 +71,16 @@
     <LibraryPath>C:\Users\Eric\Documents\Visual Studio 2012\Libraries\glew-1.9.0-win64\glew-1.9.0\lib;C:\Users\Eric\Documents\Visual Studio 2012\Libraries\SFML-2.0\lib;C:\Users\Eric\Documents\Visual Studio 2012\Projects\PathTracer\PathTracer\Source;$(LibraryPath)</LibraryPath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
-    <IncludePath>C:\Users\Eric\Documents\Visual Studio 2012\Libraries\glew-1.9.0-win64\glew-1.9.0\include;C:\Users\Eric\Documents\Visual Studio 2012\Libraries\SFML-Modified\SFML\include;C:\Users\Eric\Documents\Visual Studio 2012\Projects\PathTracer2D\PathTracer\Source;$(IncludePath)</IncludePath>
-    <LibraryPath>C:\Users\Eric\Documents\Visual Studio 2012\Libraries\glew-1.9.0-win64\glew-1.9.0\lib;C:\Users\Eric\Documents\Visual Studio 2012\Libraries\SFML-Modified\SFML\lib;C:\Users\Eric\Documents\Visual Studio 2012\Projects\PathTracer2D\PathTracer\Source;$(LibraryPath)</LibraryPath>
+    <IncludePath>C:\Users\Eric\Documents\Visual Studio 2012\Libraries\glew-1.9.0-win64\glew-1.9.0\include;C:\Users\Eric\Documents\Visual Studio 2012\Libraries\SFML-Modified\SFML\include;C:\Users\Eric\Documents\GitHub\GLLight2D\PathTracer\Source;$(IncludePath)</IncludePath>
+    <LibraryPath>C:\Users\Eric\Documents\Visual Studio 2012\Libraries\glew-1.9.0-win64\glew-1.9.0\lib;C:\Users\Eric\Documents\Visual Studio 2012\Libraries\SFML-Modified\SFML\lib;C:\Users\Eric\Documents\GitHub\GLLight2D\PathTracer\Source;$(LibraryPath)</LibraryPath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <IncludePath>C:\Users\Eric\Documents\Visual Studio 2012\Libraries\glew-1.9.0-win64\glew-1.9.0\include;C:\Users\Eric\Documents\Visual Studio 2012\Libraries\SFML-2.0\include;C:\Users\Eric\Documents\Visual Studio 2012\Projects\PathTracer\PathTracer\Source;$(IncludePath)</IncludePath>
     <LibraryPath>C:\Users\Eric\Documents\Visual Studio 2012\Libraries\glew-1.9.0-win64\glew-1.9.0\lib;C:\Users\Eric\Documents\Visual Studio 2012\Libraries\SFML-2.0\lib;C:\Users\Eric\Documents\Visual Studio 2012\Projects\PathTracer\PathTracer\Source;$(LibraryPath)</LibraryPath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
-    <IncludePath>C:\Users\Eric\Documents\Visual Studio 2012\Libraries\glew-1.9.0-win64\glew-1.9.0\include;C:\Users\Eric\Documents\Visual Studio 2012\Libraries\SFML-Modified\SFML\include;C:\Users\Eric\Documents\Visual Studio 2012\Projects\PathTracer2D\PathTracer\Source;$(IncludePath)</IncludePath>
-    <LibraryPath>C:\Users\Eric\Documents\Visual Studio 2012\Libraries\glew-1.9.0-win64\glew-1.9.0\lib;C:\Users\Eric\Documents\Visual Studio 2012\Libraries\SFML-Modified\SFML\lib;C:\Users\Eric\Documents\Visual Studio 2012\Projects\PathTracer2D\PathTracer\Source;$(LibraryPath)</LibraryPath>
+    <IncludePath>C:\Users\Eric\Documents\Visual Studio 2012\Libraries\glew-1.9.0-win64\glew-1.9.0\include;C:\Users\Eric\Documents\Visual Studio 2012\Libraries\SFML-Modified\SFML\include;C:\Users\Eric\Documents\GitHub\GLLight2D\PathTracer\Source;$(IncludePath)</IncludePath>
+    <LibraryPath>C:\Users\Eric\Documents\Visual Studio 2012\Libraries\glew-1.9.0-win64\glew-1.9.0\lib;C:\Users\Eric\Documents\Visual Studio 2012\Libraries\SFML-Modified\SFML\lib;C:\Users\Eric\Documents\GitHub\GLLight2D\PathTracer\Source;$(LibraryPath)</LibraryPath>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>
