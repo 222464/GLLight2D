@@ -25,7 +25,7 @@ float BVHTree::RecursiveCompile(BVHNode* pNode, size_t parentBufferIndex,
 		std::vector<TriBufferData> &triBuffer)
 {
 	treeBuffer.push_back(BVHNodeBufferData());
-
+	
 	size_t bufferIndex = treeBuffer.size() - 1;
 
 	treeBuffer[bufferIndex].m_geomStartIndex = static_cast<float>(triBuffer.size());

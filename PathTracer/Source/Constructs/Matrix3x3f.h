@@ -3,6 +3,7 @@
 #include <Constructs/Vec3f.h>
 #include <Constructs/Vec2f.h>
 #include <vector>
+#include <array>
 
 /*
 	Different from mathematics standard:
@@ -18,7 +19,7 @@ class Matrix3x3f
 public:
 	static const float s_directionMatrixNormalizationTolerance;
 
-	float m_elements[9];
+	std::array<float, 9> m_elements;
 
 	Matrix3x3f();
 	Matrix3x3f(std::vector<float> sourceArray);

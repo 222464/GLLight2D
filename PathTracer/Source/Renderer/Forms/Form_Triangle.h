@@ -10,9 +10,9 @@ class Form_Triangle :
 public:
 	unsigned int m_materialIndex;
 
-	Vec3f m_points[3];
-	Vec3f m_normals[3];
-	Vec2f m_uv[3];
+	std::array<Vec3f, 3> m_points;
+	std::array<Vec3f, 3> m_normals;
+	std::array<Vec2f, 3> m_uv;
 
 	Form_Triangle();
 

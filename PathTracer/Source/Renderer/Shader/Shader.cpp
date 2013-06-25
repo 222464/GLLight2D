@@ -528,7 +528,7 @@ int Shader::SetUniformmat3(const std::string &name, const Matrix3x3f &param)
 	else
 		glUniformMatrix3fvARB(paramLoc, 1, false, param.m_elements);
 #else
-	glUniformMatrix3fvARB(paramLoc, 1, false, param.m_elements);
+	glUniformMatrix3fvARB(paramLoc, 1, false, &param.m_elements[0]);
 #endif
 	
 	return paramLoc;
@@ -548,7 +548,7 @@ int Shader::SetUniformmat4(const std::string &name, const Matrix4x4f &param)
 	else
 		glUniformMatrix4fvARB(paramLoc, 1, false, param.m_elements);
 #else
-	glUniformMatrix4fvARB(paramLoc, 1, false, param.m_elements);
+	glUniformMatrix4fvARB(paramLoc, 1, false, &param.m_elements[0]);
 #endif
 	
 	return paramLoc;
@@ -858,7 +858,7 @@ void Shader::SetUniformmat3(int paramLoc, const Matrix3x3f &param)
 	else
 		glUniformMatrix3fvARB(paramLoc, 1, false, param.m_elements);
 #else
-	glUniformMatrix3fvARB(paramLoc, 1, false, param.m_elements);
+	glUniformMatrix3fvARB(paramLoc, 1, false, &param.m_elements[0]);
 #endif
 }
 
@@ -873,7 +873,7 @@ void Shader::SetUniformmat4(int paramLoc, const Matrix4x4f &param)
 	else
 		glUniformMatrix4fvARB(paramLoc, 1, false, param.m_elements);
 #else
-	glUniformMatrix4fvARB(paramLoc, 1, false, param.m_elements);
+	glUniformMatrix4fvARB(paramLoc, 1, false, &param.m_elements[0]);
 #endif
 }
 

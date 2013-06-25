@@ -1,5 +1,5 @@
 // Comment to remove
-//#define BOUNCE_SHADOW_TEST
+#define BOUNCE_SHADOW_TEST
 
 uniform samplerBuffer treeBuffer;
 uniform samplerBuffer triBuffer;

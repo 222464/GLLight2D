@@ -33,12 +33,6 @@
     <ClCompile Include="Source\Constructs\Matrix3x3f.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Source\Constructs\Matrix3x3i.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Source\Constructs\Matrix4x4d.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="Source\Constructs\Matrix4x4f.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
@@ -66,9 +60,6 @@
     <ClCompile Include="Source\Constructs\Vec3f.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Source\Constructs\Vec4d.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="Source\Constructs\Vec4f.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
@@ -79,9 +70,6 @@
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="Source\Renderer\BufferObjects\VBO.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Source\Renderer\Culler\Frustum.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="Source\Renderer\Shader\Shader.cpp">
@@ -152,12 +140,6 @@
     <ClInclude Include="Source\Constructs\Matrix3x3f.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="Source\Constructs\Matrix3x3i.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Source\Constructs\Matrix4x4d.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="Source\Constructs\Matrix4x4f.h">
       <Filter>Header Files</Filter>
     </ClInclude>
@@ -185,9 +167,6 @@
     <ClInclude Include="Source\Constructs\Vec3f.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="Source\Constructs\Vec4d.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="Source\Constructs\Vec4f.h">
       <Filter>Header Files</Filter>
     </ClInclude>
@@ -198,9 +177,6 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="Source\Renderer\BufferObjects\VBO.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Source\Renderer\Culler\Frustum.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="Source\Renderer\Shader\Shader.h">

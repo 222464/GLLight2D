@@ -3,6 +3,7 @@
 #include <Constructs/Vec3f.h>
 #include <Constructs/Vec4f.h>
 #include <vector>
+#include <array>
 
 /*
 	Different from mathematics standard:
@@ -18,7 +19,7 @@ class Matrix4x4f
 public:
 	static const float s_directionMatrixNormalizationTolerance;
 
-	float m_elements[16];
+	std::array<float, 16> m_elements;
 
 	Matrix4x4f();
 	Matrix4x4f(std::vector<float> sourceArray);

@@ -224,23 +224,23 @@ bool Matrix4x4f::Inverse(Matrix4x4f &inverse) const
 
 void Matrix4x4f::GL_Load()
 {
-	glLoadMatrixf(m_elements);
+	glLoadMatrixf(&m_elements[0]);
 }
 
 void Matrix4x4f::GL_Set_Modelview()
 {
-	glGetFloatv(GL_MODELVIEW_MATRIX, m_elements);
+	glGetFloatv(GL_MODELVIEW_MATRIX, &m_elements[0]);
 }
 
 void Matrix4x4f::GL_Set_Projection()
 {
-	glGetFloatv(GL_PROJECTION_MATRIX, m_elements);
+	glGetFloatv(GL_PROJECTION_MATRIX, &m_elements[0]);
 }
 
 Matrix4x4f Matrix4x4f::GL_Get_Modelview()
 {
 	Matrix4x4f m;
-	glGetFloatv(GL_MODELVIEW_MATRIX, m.m_elements);
+	glGetFloatv(GL_MODELVIEW_MATRIX, &m.m_elements[0]);
 
 	return m;
 }
@@ -248,14 +248,14 @@ Matrix4x4f Matrix4x4f::GL_Get_Modelview()
 Matrix4x4f Matrix4x4f::GL_Get_Projection()
 {
 	Matrix4x4f m;
-	glGetFloatv(GL_PROJECTION_MATRIX, m.m_elements);
+	glGetFloatv(GL_PROJECTION_MATRIX, &m.m_elements[0]);
 
 	return m;
 }
 
 void Matrix4x4f::GL_Mult()
 {
-	glMultMatrixf(m_elements);
+	glMultMatrixf(&m_elements[0]);
 }
 
 Matrix4x4f Matrix4x4f::ScaleMatrix(const Vec3f &scale)

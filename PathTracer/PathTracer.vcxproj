@@ -71,16 +71,16 @@
     <LibraryPath>C:\Users\Eric\Documents\Visual Studio 2012\Libraries\glew-1.9.0-win64\glew-1.9.0\lib;C:\Users\Eric\Documents\Visual Studio 2012\Libraries\SFML-2.0\lib;C:\Users\Eric\Documents\Visual Studio 2012\Projects\PathTracer\PathTracer\Source;$(LibraryPath)</LibraryPath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
-    <IncludePath>C:\Users\Eric\Documents\Visual Studio 2012\Libraries\glew-1.9.0-win64\glew-1.9.0\include;C:\Users\Eric\Documents\Visual Studio 2012\Libraries\SFML-Modified\SFML\include;C:\Users\Eric\Documents\GitHub\GLLight2D\PathTracer\Source;$(IncludePath)</IncludePath>
-    <LibraryPath>C:\Users\Eric\Documents\Visual Studio 2012\Libraries\glew-1.9.0-win64\glew-1.9.0\lib;C:\Users\Eric\Documents\Visual Studio 2012\Libraries\SFML-Modified\SFML\lib;C:\Users\Eric\Documents\GitHub\GLLight2D\PathTracer\Source;$(LibraryPath)</LibraryPath>
+    <IncludePath>C:\Users\Eric\Documents\Visual Studio 2012\Libraries\glew-1.9.0-win64\glew-1.9.0\include;C:\Users\Eric\Documents\Visual Studio 2012\Libraries\SFML-2.0\include;C:\Users\Eric\Documents\GitHub\GLLight2D\PathTracer\Source;$(IncludePath)</IncludePath>
+    <LibraryPath>C:\Users\Eric\Documents\Visual Studio 2012\Libraries\glew-1.9.0-win64\glew-1.9.0\lib;C:\Users\Eric\Documents\Visual Studio 2012\Libraries\SFML-2.0\lib;C:\Users\Eric\Documents\GitHub\GLLight2D\PathTracer\Source;$(LibraryPath)</LibraryPath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <IncludePath>C:\Users\Eric\Documents\Visual Studio 2012\Libraries\glew-1.9.0-win64\glew-1.9.0\include;C:\Users\Eric\Documents\Visual Studio 2012\Libraries\SFML-2.0\include;C:\Users\Eric\Documents\Visual Studio 2012\Projects\PathTracer\PathTracer\Source;$(IncludePath)</IncludePath>
     <LibraryPath>C:\Users\Eric\Documents\Visual Studio 2012\Libraries\glew-1.9.0-win64\glew-1.9.0\lib;C:\Users\Eric\Documents\Visual Studio 2012\Libraries\SFML-2.0\lib;C:\Users\Eric\Documents\Visual Studio 2012\Projects\PathTracer\PathTracer\Source;$(LibraryPath)</LibraryPath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
-    <IncludePath>C:\Users\Eric\Documents\Visual Studio 2012\Libraries\glew-1.9.0-win64\glew-1.9.0\include;C:\Users\Eric\Documents\Visual Studio 2012\Libraries\SFML-Modified\SFML\include;C:\Users\Eric\Documents\GitHub\GLLight2D\PathTracer\Source;$(IncludePath)</IncludePath>
-    <LibraryPath>C:\Users\Eric\Documents\Visual Studio 2012\Libraries\glew-1.9.0-win64\glew-1.9.0\lib;C:\Users\Eric\Documents\Visual Studio 2012\Libraries\SFML-Modified\SFML\lib;C:\Users\Eric\Documents\GitHub\GLLight2D\PathTracer\Source;$(LibraryPath)</LibraryPath>
+    <IncludePath>C:\Users\Eric\Documents\Visual Studio 2012\Libraries\glew-1.9.0-win64\glew-1.9.0\include;C:\Users\Eric\Documents\Visual Studio 2012\Libraries\SFML-2.0\include;C:\Users\Eric\Documents\GitHub\GLLight2D\PathTracer\Source;$(IncludePath)</IncludePath>
+    <LibraryPath>C:\Users\Eric\Documents\Visual Studio 2012\Libraries\glew-1.9.0-win64\glew-1.9.0\lib;C:\Users\Eric\Documents\Visual Studio 2012\Libraries\SFML-2.0\lib;C:\Users\Eric\Documents\GitHub\GLLight2D\PathTracer\Source;$(LibraryPath)</LibraryPath>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>
@@ -136,7 +136,7 @@
       <OptimizeReferences>true</OptimizeReferences>
       <AdditionalDependencies>glew32.lib;OpenGL32.lib;GLU32.lib;sfml-main.lib;sfml-graphics.lib;sfml-window.lib;sfml-system.lib;%(AdditionalDependencies)</AdditionalDependencies>
       <AdditionalLibraryDirectories>C:\Users\Eric\Documents\Visual Studio 2012\Libraries\SFML-2.0\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
-      <SubSystem>Windows</SubSystem>
+      <SubSystem>Console</SubSystem>
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
@@ -146,8 +146,6 @@
     <ClCompile Include="Source\Constructs\AABB.cpp" />
     <ClCompile Include="Source\Constructs\AABB2D.cpp" />
     <ClCompile Include="Source\Constructs\Matrix3x3f.cpp" />
-    <ClCompile Include="Source\Constructs\Matrix3x3i.cpp" />
-    <ClCompile Include="Source\Constructs\Matrix4x4d.cpp" />
     <ClCompile Include="Source\Constructs\Matrix4x4f.cpp" />
     <ClCompile Include="Source\Constructs\Planef.cpp" />
     <ClCompile Include="Source\Constructs\Plane_Equationf.cpp" />
@@ -157,7 +155,6 @@
     <ClCompile Include="Source\Constructs\Quaternion.cpp" />
     <ClCompile Include="Source\Constructs\Vec2f.cpp" />
     <ClCompile Include="Source\Constructs\Vec3f.cpp" />
-    <ClCompile Include="Source\Constructs\Vec4d.cpp" />
     <ClCompile Include="Source\Constructs\Vec4f.cpp" />
     <ClCompile Include="Source\Main.cpp" />
     <ClCompile Include="Source\Renderer\BufferObjects\FBO.cpp" />
@@ -166,7 +163,6 @@
     <ClCompile Include="Source\Renderer\BVH\BVHNode.cpp" />
     <ClCompile Include="Source\Renderer\BVH\BVHTree.cpp" />
     <ClCompile Include="Source\Renderer\Camera.cpp" />
-    <ClCompile Include="Source\Renderer\Culler\Frustum.cpp" />
     <ClCompile Include="Source\Renderer\Forms\Form_Triangle.cpp" />
     <ClCompile Include="Source\Renderer\Light.cpp" />
     <ClCompile Include="Source\Renderer\Material.cpp" />
@@ -188,8 +184,6 @@
     <ClInclude Include="Source\Constructs\AABB.h" />
     <ClInclude Include="Source\Constructs\AABB2D.h" />
     <ClInclude Include="Source\Constructs\Matrix3x3f.h" />
-    <ClInclude Include="Source\Constructs\Matrix3x3i.h" />
-    <ClInclude Include="Source\Constructs\Matrix4x4d.h" />
     <ClInclude Include="Source\Constructs\Matrix4x4f.h" />
     <ClInclude Include="Source\Constructs\Planef.h" />
     <ClInclude Include="Source\Constructs\Plane_Equationf.h" />
@@ -199,7 +193,6 @@
     <ClInclude Include="Source\Constructs\Quaternion.h" />
     <ClInclude Include="Source\Constructs\Vec2f.h" />
     <ClInclude Include="Source\Constructs\Vec3f.h" />
-    <ClInclude Include="Source\Constructs\Vec4d.h" />
     <ClInclude Include="Source\Constructs\Vec4f.h" />
     <ClInclude Include="Source\Renderer\BufferObjects\FBO.h" />
     <ClInclude Include="Source\Renderer\BufferObjects\VAO.h" />
@@ -207,7 +200,6 @@
     <ClInclude Include="Source\Renderer\BVH\BVHNode.h" />
     <ClInclude Include="Source\Renderer\BVH\BVHTree.h" />
     <ClInclude Include="Source\Renderer\Camera.h" />
-    <ClInclude Include="Source\Renderer\Culler\Frustum.h" />
     <ClInclude Include="Source\Renderer\Forms\Form.h" />
     <ClInclude Include="Source\Renderer\Forms\Form_Triangle.h" />
     <ClInclude Include="Source\Renderer\Light.h" />
